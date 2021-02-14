@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  border: 2px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.myform label {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+}
+
+.myform input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+}
+
+.myform {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  background: none;
+  border: none;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.employees {
+  text-align: left;
+}
+
+.employees h3 {
+  margin: 0;
+}
+
+.employees li {
+  margin: 20px;
+}
+
+.home p {
+  font-size: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  margin: 10px 0;
+  width: 350px;
+  padding: 20px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img {
+  margin-bottom: 8px;
+  height: 200px;
+  width: 200px; 
+}
+.bg-light {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
